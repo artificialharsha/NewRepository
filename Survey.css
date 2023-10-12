@@ -1,0 +1,47 @@
+body{
+font-family:sans-serif;
+background-image: linear-gradient(to right, red, yellow);
+rgb(25 20 98) 0%;
+rgba(22,22,156,1) 35%;
+rgb(9,108,128) 100%;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.box{
+width: 300px;
+padding: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgb(33,34,35,0.9);
+text-align: center;
+border-radius: 5px;
+box-shadow: 5px 5px 4px #lightgray;
+}
+.box h1
+{
+color: White;
+text-transform: uppercase;
+font-weight: 800px;
+text-shadow: 3px 3px 3px #gray;
+}
+.box input{
+display: block;
+background: none;
+margin: 3px auto;
+padding: 5px;
+text-align: center;
+border: 2px solid #4090db;
+cutline:none;
+color: white;
+transition: 0.3s;
+width: 200px;
+}
+.box input[type= "submit"]:hover{
+width: 120px;
+cursor: pointer;
+background: rgba(100,235,100,0.8);
+}
